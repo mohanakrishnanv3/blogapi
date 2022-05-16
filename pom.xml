@@ -6,7 +6,7 @@
 
     <groupId>com.sopromadze</groupId>
     <artifactId>blogapi</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>BlogAPI</name>
@@ -146,16 +146,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.sopromadze.blogapi.BlogApiApplication</mainClass>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
